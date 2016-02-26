@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <title>Untitled Document</title>
+    
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/cufon.js"></script>
+    <script type="text/javascript" src="/js/nokia_font.js"></script>
+    <script type="text/javascript" src="/js/actions.js"></script>
+    
+    <!--[if lt IE 7]>
+        <style>
+            .ie6png { filter: expression(fixPNG(this)); }
+            .ie6png a { filter: expression(fixPNG(this)); }
+        </style>
+        <script type="text/javascript" src="/js/ie6-fix.js"></script>
+    <![endif]-->
+</head>
+
+<body class="inner_body">
+    <div class="limiter">
+        <div class="wrapper">
+            <div class="header_inner">
+                <a href="/"><img class="logo ie6png" alt="Nokia Maemo" title="Nokia Maemo" src="/img/maemo_logo.png" width="135" height="72" /></a>
+<ul class="top_menu">
+                	<li><a href="#"><img alt="Приложения" class="ie6png main_menu_btn" src="/img/menu/5_i.png" width="116" height="30" /></a><img style="display: none" class="triangle_menu tm5" src="/img/triangle_menu_inner.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Голосование Maemo" class="ie6png main_menu_btn" src="/img/menu/4_i.png" width="115" height="30" /></a><img style="display: none" class="triangle_menu tm4" src="/img/triangle_menu_inner.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Статьи о Maemo" class="ie6png main_menu_btn" src="/img/menu/3_i.png" width="136" height="30" /></a><img style="display: none" class="triangle_menu tm3" src="/img/triangle_menu_inner.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Напиши про Maemo" class="ie6png main_menu_btn" src="/img/menu/2_i.png" width="164" height="30" /></a><img style="display: none" class="triangle_menu tm2" src="/img/triangle_menu_inner.gif" width="21" height="12" /></li>
+                	<li><a href="#"><img alt="Что такое Maemo" class="ie6png main_menu_btn" src="/img/menu/1_i.png" width="153" height="30" /></a><img style="display: none" class="triangle_menu tm1" src="/img/triangle_menu_inner.gif" width="21" height="12" /></li>                    
+              </ul>
+            </div>
+            
+            <div class="white_content">
+            	<div class="white_content_inner">
+                	<h1 class="h_b">
+                    	<span class="nokia_font big_h1">Приложения для Maemo</span></span>
+                    </h1>
+
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top" width="1%" class="soft_left_col">
+                        	<img src="/img/content/soft/1.jpg" width="261" height="156" />
+                            <div class="screens_list">
+                            	<div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                                <div><a href="javascript:void(0)"><img src="/img/content/soft/1_s.jpg" width="49" height="30" /></a></div>
+                            </div>
+                        </td>
+                        <td valign="top" class="soft_right_col">
+                        	<h2 class="h_b">
+                        		<span class="nokia_font">AP News Desktop Widget</span><span class="h_more_gray"> <em>/ Новости на рабочем столе</em></span>
+                    		</h2>
+                            
+                            <div class="soft_info">
+                            	<table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td>производитель <a href="#">Evernote</a> рубрика <a href="#">RSS-reader</a></td>
+                                    <td align="left"><div class="stars_white rs2"></div></td>
+                                  </tr>
+                                </table>
+                            </div>
+                            
+                            <p>Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть, Nokia N900 представит пользователям широкие возможности, – утверждает Ансси Ванйоки (Anssi Vanjoki), исполнительный вице-президент Nokia Markets. – Nokia N900 отражает взятый нами курс в развитии платформы Maemo, и этим направлением мы будем заниматься и дальше. С Maemo мы достигли симбиоза возможностей компьютера, Интернета и мобильного телефона.</p>
+                            
+                            <p><a href="#"><em>Комментарии</em></a></p>
+                        </td>
+                        <td valign="top">
+                        	<a href="#"><img class="download_btn" src="/img/download.png" width="99" height="37" /></a>
+                        </td>
+                      </tr>
+                    </table>
+					
+                </div>
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        
+        <div class="footer">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" height="260" class="copy">&reg; 2009&ndash;2010 IXBT</td>
+                <td><a href="http://www.ixbt.com"><img alt="iXBT.com" class="ie6png" src="/img/ixbt.png" width="75" height="58" /></a></td>
+                <td><a href="http://www.nokia.ru"><img alt="Nokia" class="ie6png" src="/img/nokia.png" width="110" height="19" /></a></td>
+                <td><a href="#"><img src="/img/n900.png" width="328" height="169" /></a></td>
+                <td align="right"><a href="http://www.explosion.ru"><img src="img/explosion.png" width="105" height="25" alt="Explosion" title="Создание сайта — студия Explosion" /></a></td>
+              </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

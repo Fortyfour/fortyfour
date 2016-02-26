@@ -1,0 +1,96 @@
+/* Фон */
+
+body {
+	background: #000;
+}
+.limiter {
+	background: #000 url(../img/rebrand/bg/maroder_top.jpg) repeat-x center top;
+} /* Верхний фон */
+.wrapper {
+	background: url(../img/rebrand/bg/maroder_bottom.jpg) repeat-x center bottom;
+} /* Нижний фон  */
+.banner {
+	display: none;
+}
+.banner_buddy {
+	height: 120px;
+	text-align: center;
+}
+/* Верхнее меню */
+
+.top_menu_bg8 {
+	background: url(../img/rebrand/top/8rebrand.png) no-repeat;
+	height: 90px;
+	width: 2908px;
+	z-index: 2;
+	position: relative;
+} /* Ребренд - 8rebrand.png, оригинал - 8original.png */
+.top_menu_bg24 {
+	background: url(../img/rebrand/top/24rebrand.png) no-repeat;
+	height: 90px;
+	width: 2908px;
+	z-index: 2;
+	position: relative;
+} /* Ребренд - 24rebrand.png, оригинал - 24original.png */
+/* Футер */
+
+.bottom_menu_bg8 {
+	background: url(../img/rebrand/bottom/8rebrand.png) no-repeat;
+	height: 167px;
+	width: 2908px;
+} /* Ребренд - 8rebrand.png, оригинал - 8original.png */
+.bottom_menu_bg24 {
+	background: url(../img/rebrand/bottom/24rebrand.png) no-repeat;
+	height: 167px;
+	width: 2908px;
+} /* Ребренд - 24rebrand.png, оригинал - 24original.png */
+/* Новости */
+
+.news_mainpage h1 {
+	color: #FDF7F7;
+} /* Цвет заголовка новостей (h1) */
+.news_mainpage h2 {
+	color: #F23E1F;
+} /* Цвет заголовка новости и ссылок (h2) */
+.news_mainpage h2 a:link, .news_mainpage h2 a:visited {
+	color: #68c6db;
+}
+.news_mainpage h2 a:hover, .news_mainpage h2 a:active {
+	color: #4c95a7;
+}
+.news_item {
+	background: url(../img/rebrand/news/dots_gray.gif) repeat-x bottom;
+} /* Цвет разделяющих точек между новостями */
+.ni_comments {
+	color: #fff;
+} /* Цвет щетчика коментариев */
+.ni_date {
+	color: #fff;
+} /* Цвет даты */
+.ni_comments a:link, .ni_comments a:visited {
+	color: #68c6db;
+}
+.ni_comments a:hover, .ni_comments a:active {
+	color: #4c95a7;
+}
+/*********** Ребренд игры **********/
+
+.gamerebrand {
+	color: #FFF;
+} /* Цвет текста и ссылок */
+.gamerebrand a:link, .gamerebrand a:visited {
+	color: #68c6db;
+}
+.gamerebrand a:hover, .gamerebrand a:active {
+	color: #4c95a7;
+}
+.ul_game_content li {
+	background: url(../img/rebrand/bullets/li-dot-blue.gif) no-repeat 6px 1px !important;
+} /* Цвет точки (bullet) у списков */
+.active_nav {
+	background: #165274 !important;
+	color: #FFF;
+} /* Цвет фона активного элемента навигации */
+.inner_news_item {
+	background: url(../img/rebrand/news/dots_gray.gif) repeat-x bottom !important;
+} /* Цвет точек после каждой новости */

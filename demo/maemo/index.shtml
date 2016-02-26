@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <title>Untitled Document</title>
+    
+    
+    
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/cufon.js"></script>
+    <script type="text/javascript" src="/js/nokia_font.js"></script>
+    <script type="text/javascript" src="/js/actions.js"></script>
+    
+    <!--[if lt IE 7]>
+        <style>
+            .ie6png { filter: expression(fixPNG(this)); }
+            .ie6png a { filter: expression(fixPNG(this)); }
+        </style>
+        <script type="text/javascript" src="/js/ie6-fix.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="wrapper">
+            <div class="header">
+                <a href="/"><img class="logo ie6png" alt="Nokia Maemo" title="Nokia Maemo" src="/img/maemo_logo.png" width="135" height="72" /></a>
+<ul class="top_menu">
+                	<li><a href="#"><img alt="Приложения" class="ie6png main_menu_btn" src="/img/menu/5_i.png" width="116" height="30" /></a><img style="display: none" class="triangle_menu tm5" src="/img/triangle_menu.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Голосование Maemo" class="ie6png main_menu_btn" src="/img/menu/4_i.png" width="115" height="30" /></a><img style="display: none" class="triangle_menu tm4" src="/img/triangle_menu.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Статьи о Maemo" class="ie6png main_menu_btn" src="/img/menu/3_i.png" width="136" height="30" /></a><img style="display: none" class="triangle_menu tm3" src="/img/triangle_menu.gif" width="21" height="12" /></li>
+                    <li><a href="#"><img alt="Напиши про Maemo" class="ie6png main_menu_btn" src="/img/menu/2_i.png" width="164" height="30" /></a><img style="display: none" class="triangle_menu tm2" src="/img/triangle_menu.gif" width="21" height="12" /></li>
+                	<li><a href="#"><img alt="Что такое Maemo" class="ie6png main_menu_btn" src="/img/menu/1_i.png" width="153" height="30" /></a><img style="display: none" class="triangle_menu tm1" src="/img/triangle_menu.gif" width="21" height="12" /></li>                    
+              </ul>
+            </div>
+            
+            <div class="top_block">
+       	    	<img class="ie6png top_pic_1" src="/img/top_pic_1.png" width="280" height="216" />
+            	<img class="ie6png top_pic_2" src="/img/top_pic_2.png" width="573" height="219" />
+            	<a href="#"><img class="ie6png maemo_video" alt="Nokia о Maemo - Смотри видео" title="Nokia о Maemo - Смотри видео" src="/img/see_video.png" width="283" height="101" /></a>
+            </div>
+            
+       	  	<div class="top_text_block">
+            	<div class="left_col">
+                	<h1 class="h_w">
+                    	<span class="nokia_font">Что такое Maemo?</span><span class="h_more"> &rarr; <a href="#">узнать больше</a></span>
+                    </h1>
+                    <p>Разработанное изначально для персональных компьютеров, программное обеспечение Maemo с открытым исходным кодом на базе Linux обеспечивает карманному устройству функционал, аналогичный настольному компьютеру.</p>
+
+<p>Nokia N900 развивает идеи предыдущего поколения Интернет-планшетов Nokia, расширяя выбор устройств для энтузиастов высокотехнологических новинок, поскольку для этого класса пользователей особенно важны многозадачность и комфортная работе в Интернете, то есть те возможности, которыми обладают настольные компьютеры.</p>
+                </div>
+                <div class="right_col">
+                	<h2 class="h_w">
+                    	<span class="nokia_font">Приложения</span><span class="h_more"> &rarr; <a href="#">все приложения под Maemo</a></span>
+                    </h2>
+                    
+                    <div class="right_news_block">
+						<div class="rn_item">
+                        	<div class="rni_stars rs5"></div>
+                        	<div class="rni_t">
+                        	<a class="rni_link" href="#">StockThis</a>
+                        	Полное собрание мобильных приложений
+                            </div>
+                            <div class="cl"></div>
+                        </div>
+                        <div class="rn_item">
+                        	<div class="rni_stars rs0"></div>
+                        	<div class="rni_t">
+                        	<a class="rni_link" href="#">Conversations Inbox Desktop Widget</a>
+                        	Проверка входящих SMS и мгновенных сообщений прямо с рабочего стола
+                            </div>
+                            <div class="cl"></div>
+                        </div>
+                        <div class="rn_item">
+                        	<div class="rni_stars rs3"></div>
+                        	<div class="rni_t">
+                            <a class="rni_link" href="#">Recorder</a>
+                        	Простая графическая утилита для записи аудио с микрофона
+                            </div>
+                            <div class="cl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cl"></div>
+          	</div>
+            
+            <div class="white_content">
+            	<div class="white_content_inner">
+                
+                    <div class="thr_blocks_l">
+                        <img class="ie6png vertical_h" src="/img/vertical/main.png" width="55" height="713" alt="Напиши статью про Maemo" />
+                    </div>
+                    
+                    <div class="thr_blocks_c">
+                        <h1 class="h_b">
+                            <span class="nokia_font">Условия конкурса</span><span class="h_more"> &rarr; <a href="#">узнать подробности</a></span>
+                        </h1>
+                        
+                        <div class="wh_txt_block">
+                        <p>Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть, Nokia N900 представит пользователям широкие возможности, — утверждает Ансси Ванйоки (Anssi Vanjoki), исполнительный вице-президент Nokia Markets. — Nokia N900 отражает взятый нами курс в развитии платформы Maemo, и этим направлением мы будем заниматься и дальше. </p>
+    
+    <p>С Maemo мы достигли симбиоза возможностей компьютера, Интернета и мобильного телефона, и мы рады тем увлекательнейшим возможностям, которые откроет данное направление которыми обладают настольные компьютеры.</p>
+    					</div>
+
+                        
+    					<h1 class="h_b">
+                            <span class="nokia_font">Голосование</span>
+                        </h1>
+                        
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="50%" valign="top" class="bottom_scr_txt">
+                            	<img src="/img/content/screen1.jpg" width="217" height="159" /><br />
+                                <a href="#">Лучшая статья</a>
+                                <p>Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть, Nokia</p>
+                            </td>
+                            <td width="50%" valign="top" class="bottom_scr_txt">
+                            	<img src="/img/content/screen2.jpg" style="position: absolute; margin: -70px 0 0 0;" width="197" height="166" />
+                                <div style="height: 96px;"></div>
+                            	<a href="#">Лучшее приложение</a>
+                                <p>Ансси Ванйоки (Anssi Vanjoki), исполнительный вице-президент Nokia Markets. – Nokia N900 отражает взятый нами курс в развитии платформы Maemo</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width="50%" valign="top"></td>
+                            <td width="50%" valign="top" class="bottom_scr_txt">
+                            	<img style="margin: 0 0 0 -238px; position: absolute;" src="/img/content/screen3.jpg" width="218" height="170" />
+                            	<a href="#">Самый полезный участник форума</a>
+                            	<p>Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть, Nokia</p>
+                            </td>
+                          </tr>
+                        </table>
+                        
+                    </div>
+                    
+                    <div class="thr_blocks_r">
+                    	<img class="ie6png people" src="/img/people.png" width="480" height="440" />
+                        <div style="height: 325px;"></div>
+                        <h2 class="h_b">
+                            <span class="nokia_font">Приложения</span><span class="h_more"> &rarr; <a href="#">все приложения под Maemo</a></span>
+                        </h2>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">В 2012 году смартфоны Nokia N-серии будут работать на Maemo</a>
+                            <div class="rni_txt">Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть.</div>
+                            <div class="rni_time">14 декабря 2009</div>
+                        </div>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">Мобильная платформа Nokia Maemo будет поддерживать Qt</a>
+                            <div class="rni_txt">Nokia N900 представит пользователям широкие возможности, утверждает Ансси Ванйоки (Anssi Vanjoki), исполнительный</div>
+                            <div class="rni_time">11 декабря 2009</div>
+                        </div>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">C Maemo 5 мобильные компьютеры становятся быстрее и мощнее</a>
+                            <div class="rni_txt">С Maemo мы достигли симбиоза возможностей компьютера, Интернета и мобильного телефона, и мы рады тем увлекательнейшим возможностям</div>
+                            <div class="rni_time">11 декабря 2009</div>
+                        </div>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">В 2012 году смартфоны Nokia N-серии будут работать на Maemo</a>
+                            <div class="rni_txt">Благодаря программному обеспечению Linux с браузером, основанном на технологиях Mozilla, а также поддержке подключения через сотовую сеть.</div>
+                            <div class="rni_time">14 декабря 2009</div>
+                        </div>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">Мобильная платформа Nokia Maemo будет поддерживать Qt</a>
+                            <div class="rni_txt">Nokia N900 представит пользователям широкие возможности, утверждает Ансси Ванйоки (Anssi Vanjoki), исполнительный</div>
+                            <div class="rni_time">11 декабря 2009</div>
+                        </div>
+                        
+                        <div class="right_news_item">
+                        	<a href="#">C Maemo 5 мобильные компьютеры становятся быстрее и мощнее</a>
+                            <div class="rni_txt">С Maemo мы достигли симбиоза возможностей компьютера, Интернета и мобильного телефона, и мы рады тем увлекательнейшим возможностям</div>
+                            <div class="rni_time">11 декабря 2009</div>
+                        </div>
+                    </div>
+					
+                    <div class="cl"></div>
+                </div>
+            </div>
+            
+            <div class="bottom_block">
+            
+            	<div class="thr_blocks_l">&nbsp;</div>
+                
+                <div class="thr_blocks_c">
+                	<h2 class="h_w">
+                        <span class="nokia_font">Форум о Maemo</span><span class="h_more"> &rarr; <a href="#">еще темы</a></span>
+                    </h2>
+                    
+                    <div class="right_news_item">
+                        <a href="#">В 2012 году смартфоны Nokia N-серии будут работать на Maemo</a>
+                        <div class="rni_time_blk">14 декабря 2009 <span class="time">12:58</span></div>
+                    </div>
+                    
+                    <div class="right_news_item">
+                        <a href="#">Мобильная платформа Nokia Maemo будет поддерживать Qt</a>
+                        <div class="rni_time_blk">11 декабря 2009 <span class="time">12:58</span></div>
+                    </div>
+                    
+                    <div class="right_news_item">
+                        <a href="#">C Maemo 5 мобильные компьютеры становятся быстрее и мощнее</a>
+                        <div class="rni_time_blk">11 декабря 2009 <span class="time">12:58</span></div>
+                    </div>
+                </div>
+                
+                <div class="thr_blocks_r">
+                	<h2 class="h_w">
+                        <span class="nokia_font">Новости</span><span class="h_more"> <img class="ie6png news_ico" src="/img/news_ico.png" width="25" height="23" /></span>
+                    </h2>
+                    
+                    <div class="right_news_item">
+                        <a href="#">В 2012 году смартфоны Nokia N-серии будут работать на Maemo</a>
+                        <div class="rni_time_blk">14 декабря 2009</div>
+                    </div>
+                    
+                    <div class="right_news_item">
+                        <a href="#">Мобильная платформа Nokia Maemo будет поддерживать Qt</a>
+                        <div class="rni_time_blk">11 декабря 2009</div>
+                    </div>
+                    
+                    <div class="right_news_item">
+                        <a href="#">C Maemo 5 мобильные компьютеры становятся быстрее и мощнее</a>
+                        <div class="rni_time_blk">11 декабря 2009</div>
+                    </div>
+                </div>   
+                  
+                <div class="cl"></div>      	
+            </div>
+ 
+            <div class="push"></div>
+        </div>
+        
+        <div class="footer">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" height="260" class="copy">&reg; 2009&ndash;2010 IXBT</td>
+                <td><a href="http://www.ixbt.com"><img alt="iXBT.com" class="ie6png" src="/img/ixbt.png" width="75" height="58" /></a></td>
+                <td><a href="http://www.nokia.ru"><img alt="Nokia" class="ie6png" src="/img/nokia.png" width="110" height="19" /></a></td>
+                <td><a href="#"><img src="/img/n900.png" width="328" height="169" /></a></td>
+                <td align="right"><a href="http://www.explosion.ru"><img src="img/explosion.png" width="105" height="25" alt="Explosion" title="Создание сайта — студия Explosion" /></a></td>
+              </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

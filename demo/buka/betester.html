@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Бука</title>
+
+<link type="text/css" href="/css/style.css" rel="stylesheet"  />
+<link type="text/css" href="/css/scroll.css" rel="stylesheet"  />
+<link type="text/css" href="/css/original.css" rel="stylesheet"  />
+<link type="text/css" href="/css/inner.css" rel="stylesheet"  />
+
+<script src="/js/swfobject.js" type="text/javascript"></script>
+<script src="/js/preload_main.js" type="text/javascript"></script>
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script src="/js/mousewheel.js" type="text/javascript"></script>
+<script src="/js/scroll.js" type="text/javascript"></script>
+<script src="/js/auth.js" type="text/javascript"></script>
+<script src="/js/tables.js" type="text/javascript"></script>
+
+<!--[if lt IE 7]>
+    <style>
+        .ie6png { filter: expression(fixPNG(this)); }
+        .ie6png a { filter: expression(fixPNG(this)); }
+    </style>
+	<script type="text/javascript" src="/js/ie6-fix.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="main top_bg">
+    <div class="limiter bottom_bg">
+        <div class="wrapper">
+        
+            <div class="header">
+            
+                <div class="top">
+                    <div class="top_left">
+                    <a href="/"><img class="ie6png logo" src="/img/rebrand/logo.png" width="101" height="53" alt="Бука" title="Бука" /></a>
+                    </div>
+                    <a href="/"><img class="ie6png home" src="/img/design/homebutton.png" width="21" height="21" alt="На главную"  title="На главную сраницу" /></a>
+                    
+                    <div class="top_right">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="44">
+                                <div class="search ie6png"></div>
+                                <form action="" method="get" class="search_form">
+                                    <input class="search_field" name="" type="text" value="поиск" 
+                                    onfocus="if(this.value == 'поиск'){this.value = ''}" 
+                                    onblur="if(this.value == ''){this.value = 'поиск'}" />
+                                    
+                                  <input name="" type="button" class="search_go" />
+                                </form>
+                            </td>
+                            <td>
+                            	<div class="auth_button ie6png" id="auth" onclick="auth()">Авторизация</div>
+                            	<div class="auth ie6png" id="auth_bg"></div>
+                  				<form action="" method="get" class="auth_form" id="auth_form">
+                                	<div id="close" onclick="auth_close()"></div>
+                                    <input class="auth_field" name="" type="text" value="логин"
+                                    onfocus="if(this.value == 'логин'){this.value = ''}" 
+                                    onblur="if(this.value == ''){this.value = 'логин'}"/>
+                                    
+                            		<input class="auth_field" name="" type="text" value="пароль" 
+                                    onfocus="if(this.value == 'пароль'){this.value = '';this.type = 'password'}" 
+                                    onblur="if(this.value == ''){this.value = 'пароль';this.type = 'text'}" />
+                                    <div class="regnpass"><a href="#">Регистрация</a> | <a href="#">Забыли пароль?</a></div>
+        							<input name="" type="button" value="" class="auth_go" />
+                                </form>
+                            </td>
+                            <td><div class="lang ie6png" onclick="location.href='#'"><div><a href="#">ru</a></div></div></td>
+                          </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                <div class="topmenu">
+                    <ul>
+                        <li style="width: 9%; text-align: left"><a href="#">Купить</a></li>
+                        <li style="width: 8%; text-align: center"><a href="#">Игры</a></li>
+                        <li style="width: 15%; text-align: center"><a href="#">Техподдержка</a></li>
+                        <li style="width: 9%; text-align: center"><a href="#">Форум</a></li>
+                        <li style="width: 12%; text-align: center"><a href="#">Конкурсы</a></li>
+                        <li style="width: 14%; text-align: center"><a href="#">Прайс-лист</a></li>
+                        <li style="width: 21%; text-align: center"><a href="#">Оптовым покупателям</a></li>
+                        <li style="width: 12%; text-align: right"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div id="top_flash">
+                    <div class="top_menu_bg24 ie6png">
+                        <div class="top_menu_bg8 ie6png"></div>
+                    </div>
+              </div>
+                
+                <div class="protector_menu"></div>
+                
+            </div>
+            
+            <div class="banner" id="banner"></div>
+                <script type="text/javascript">
+					var so = new SWFObject("/swf/banner.swf", "banner", "100%", "120", "7");
+					so.addParam("wmode","transparent");
+					so.write("banner");
+				</script>
+
+            <div class="content">
+                        
+                <div class="once_col">
+           	  	  	<h1>Стань тестером</h1>
+                    
+				  <form action="" method="get" id="testform">
+                      <h2>Личные данные</h2>                        
+                      <br />
+                      
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+                      <div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                <tr>
+                                  <td width="18%">Фамилия, Имя:</td>
+                                  <td width="32%"><input class="input req" name="" type="text" /></td>
+                                  <td width="17%">Дата рождения:</td>
+                                  <td width="10%">
+                                  <input class="input req smally" maxlength="2" name="" type="text" value="число" onfocus="if(this.value == 'число'){this.value = ''}" onblur="if(this.value == ''){this.value = 'число'}" /></td>
+                                  <td width="10%"><input class="input req smally" maxlength="10" name="" type="text" value="месяц" onfocus="if(this.value == 'месяц'){this.value = ''}" onblur="if(this.value == ''){this.value = 'месяц'}"/></td>
+                                  <td width="14%"><input class="input req smally" maxlength="4" name="" type="text" value="год" onfocus="if(this.value == 'год'){this.value = ''}" onblur="if(this.value == ''){this.value = 'год'}"/></td>
+                                </tr>
+                              </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                  <div class="clearer"></div>
+                        
+                        
+                        
+               		  <div class="wo_rc">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="18%">Домашний:</td>
+                          <td width="32%"><input class="input" name="" type="text" /></td>
+                          <td width="17%">Мобильный:</td>
+                          <td width="33%"><input class="input" name="" type="text" /></td>
+                        </tr>
+                      </table>
+                      </div>    
+                      
+                      
+                      
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+                      <div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                    <td width="18%">E-mail:</td>
+                                    <td width="32%"><input class="input req" name="" type="text" /></td>
+                                    <td width="17%">ICQ:</td>
+                                    <td width="33%"><input class="input" name="" type="text" /></td>
+                                  </tr>
+                            </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                      <div class="clearer"></div>    
+                      
+                      
+
+                <div class="wo_rc">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="18%">Место работы:</td>
+                              <td width="32%"><input class="input" name="" type="text" /></td>
+                              <td width="17%">Должность:</td>
+                              <td width="33%"><input class="input" name="" type="text" /></td>
+                            </tr>
+                          </table>
+                  </div> 
+                      
+                      
+                      
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+            			<div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                    <td width="18%">Ваш игровой опыт:</td>
+                                    <td width="16%"><input class="input verysmally" name="" type="text" /> консоли</td>
+                                    <td width="16%"><input class="input verysmally" name="" type="text" /> PC</td>
+                                    <td width="50%"></td>
+                                  </tr>
+                            </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                      <div class="clearer"></div> 
+                      
+                      <br />
+					  <br />
+                      <br />
+
+
+                    <h2>Какие ошибки в играх вы находили</h2>  
+                      <br />
+                      
+                      <div class="gr_tl ie6png"></div>
+                      <div class="gr_tc"></div>
+           			  <div class="gr_tr ie6png"></div>
+                      <div class="gr_rc_content">   
+                        
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td colspan="2" valign="top" class="dotted_object"><h2 class="gametest_gamename"><a class="dashed" href="javascript:void(0)">Farcry 2</a></h2></td>
+                              <td width="58" rowspan="2" align="right" valign="top"><a href="#"><img src="/img/inner/delgame.gif" width="38" height="38" onmouseover="this.src='/img/inner/delgame_a.gif'" onmouseout="this.src='/img/inner/delgame.gif'" alt="Удалить игру" title="Удалить игру" /></a></td>
+                          </tr>
+                            <tr>
+                              <td width="20%" valign="top" class="errors">Ошибки</td>
+                              <td valign="top" class="errors">
+                                  <a class="dashed hlinks mistake_fg" href="javascript:void(0)">в автозапуске</a>
+                                  <a class="dashed hlinks activated" href="javascript:void(0)">при установке</a>
+                                  <a class="dashed hlinks" href="javascript:void(0)">программы</a>
+                                  <a class="dashed hlinks" href="javascript:void(0)">логики событий</a>
+                                  <a class="dashed hlinks" href="javascript:void(0)">игрового процесса</a>
+                                  <a class="dashed hlinks activated" href="javascript:void(0)">в графике</a>
+                                  <a class="dashed hlinks" href="javascript:void(0)">звука</a>
+                                  <a class="dashed hlinks activated" href="javascript:void(0)">озвучивания персонажей</a>
+                                  <a class="dashed hlinks activated" href="javascript:void(0)">перевода орфографии</a>
+                                  <a class="dashed hlinks" href="javascript:void(0)">при удалении программы</a>
+                              </td>
+                          </tr>
+                        </table>
+                        <br />
+
+
+                        
+                      	</div>
+                      <div class="gr_bl ie6png"></div>
+                      <div class="gr_bc"></div>
+                      <div class="gr_br ie6png"></div>
+                      <div class="clearer"></div> 
+
+                      <br />
+					  <br />
+                    
+                      
+
+                      <div class="red_tl ie6png"></div>
+                      <div class="red_tc"></div>
+            			<div class="red_tr ie6png"></div>
+                          <div class="red_rc_content">                
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                    <td width="20%">Название игры:</td>
+                                    <td width="80%"><input class="input req" style="width: 98.5%;" name="" type="text" /></td>
+                                  </tr>
+                                  <tr>
+                                    <td valign="top">Ошибки:</td>
+                                    <td>
+                                    	<a class="dashed hlinks" href="javascript:void(0)">в автозапуске</a>
+                                        <a class="dashed hlinks activated" href="javascript:void(0)">при установке</a>
+                                        <a class="dashed hlinks" href="javascript:void(0)">программы</a>
+                                        <a class="dashed hlinks currentgame" href="javascript:void(0)">логики событий</a>
+                                        <a class="dashed hlinks" href="javascript:void(0)">игрового процесса</a>
+                                        <a class="dashed hlinks activated" href="javascript:void(0)">в графике</a>
+                                        <a class="dashed hlinks" href="javascript:void(0)">звука</a>
+                                        <a class="dashed hlinks activated" href="javascript:void(0)">озвучивания персонажей</a>
+                                        <a class="dashed hlinks activated" href="javascript:void(0)">перевода орфографии</a>
+                                        <a class="dashed hlinks" href="javascript:void(0)">при удалении программы</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2">
+                                   	  <textarea name="" class="input" cols="" rows="" style="width: 99%; height: 100px;"></textarea>
+                                    </td>
+                                  </tr>
+                            </table>
+                            <a href="javascript:void(0)"><img src="img/inner/addgame.gif" width="90" height="20" alt="Добавить игру" title="Добавить игру" class="addgame" /></a>
+                         </div>
+                      <div class="red_bl ie6png"></div>
+                      <div class="red_bc"></div>
+                      <div class="red_br ie6png"></div>
+                      <div class="clearer"></div> 
+                      
+                      <br />
+					  <br />
+                      <br />
+
+
+                      
+                    <h2>Ваш компьютер</h2>   
+                  	<br />
+                    
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+                      <div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                    <td width="18%">Процессор:</td>
+                                    <td width="32%"><input class="input" name="" type="text" /></td>
+                                    <td width="20%">Частота процессора, <span class="gray_t">Мгц</span>:</td>
+                                    <td width="30%"><input class="input" name="" type="text" /></td>
+                                  </tr>
+                            </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                      <div class="clearer"></div> 
+                      
+                      
+                      <div class="wo_rc">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="18%">Память, <span class="gray_t">Мб</span>:</td>
+                              <td width="32%"><input class="input" name="" type="text" /></td>
+                              <td width="20%">Жесткий диск <span class="gray_t">Гб</span>:</td>
+                              <td width="30%"><input class="input" name="" type="text" /></td>
+                            </tr>
+                          </table>
+                      </div>    
+                      
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+                      <div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                    <td width="18%">Видеокарта:</td>
+                                    <td width="32%"><input class="input" name="" type="text" /></td>
+                                    <td width="20%">Память видеокарты <span class="gray_t">Гб</span>:</td>
+                                    <td width="30%"><input class="input" name="" type="text" /></td>
+                                  </tr>
+                            </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                      <div class="clearer"></div> 
+                      
+                      
+                      <div class="wo_rc">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="18%">Звуковая карта:</td>
+                              <td width="32%"><input class="input" name="" type="text" /></td>
+                              <td width="20%">Операционная система:</td>
+                              <td width="30%"><input class="input" name="" type="text" /></td>
+                            </tr>
+                          </table>
+                      </div>    
+                      
+                      <br />
+					  <br />
+                      <br />
+   
+   
+                      <h2 class="red">Правила</h2>   
+                      <br />
+                      
+                      <div class="tl ie6png"></div>
+                      <div class="tc"></div>
+                      <div class="tr ie6png"></div>
+                          <div class="rc_content">                
+                        	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tab">
+                                  <tr>
+                                  <td class="dotted_object">
+                                    	<h1 class="medium_h1">Нельзя распространять полученную в процессе тестирования информацию ни в каком виде, без письменного согласия нашей компании.</h1>
+                                        <h2 class="red">Основная задача бета тестера заключается в следующем:</h2>
+                                        Обнаруживать ошибки<br>
+                                        Грамотно и подробно описывать найденные ошибки<br>
+                                        Прилагать изображение ошибки (screenshot) в формате jpg<br>
+                                        Прилагать к описанным ошибкам запись позиции &mdash; save (по возможности)<br>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                    	<input name="" type="checkbox" value="" class="checkbox" id="accept" /> &nbsp;<label for="accept" class="red"><small>С правилами и задачами согласен</small></label>
+                                    </td>
+                                  </tr>
+                            </table>
+                          </div>
+                      <div class="bl ie6png"></div>
+                      <div class="bc"></div>
+                      <div class="br ie6png"></div>
+                      <div class="clearer"></div> 
+
+                      <br />
+                      <br />
+                      <br />
+
+					
+                      <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td>
+                           	 <input name="" type="image" src="/img/inner/send.gif" width="120" height="28" value="Отправить" />
+                            </td>
+                            <td class="req_legend"><div class="req req_seample"></div><span> &mdash; Поля обязательные для заполнения</span></td>
+                          </tr>
+                      </table>
+
+				  </form>
+                </div>
+                <div class="clearer"></div>
+            </div>          
+            <div class="push"></div>
+        </div>
+        <div class="footer">
+        	
+            <div class="copy">
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="23"><img class="ie6png copy_icon" src="/img/design/t_footer.png" width="18" height="18" alt="Телефон:" title="Телефон" /></td>
+                    <td width="160" class="copy_tel">+7 (495) 788-75-00</td>
+                    <td width="23"><img class="ie6png copy_icon" src="/img/design/f_footer.png" width="18" height="18" alt="Факс:" title="Факс" /></td>
+                    <td class="copy_tel">+7 (495) 788-75-00</td>
+                  </tr>
+                  <tr><td colspan="4" height="8"></td></tr>
+                  <tr>
+                    <td valign="top"><img class="ie6png copy_icon" src="/img/design/a_footer.png" width="18" height="18" alt="Адрес:" title="Адрес" /></td>
+                    <td colspan="3" class="copy_text">Каширское шоссе, 1, строение 2, Компания &laquo;Бука&raquo; <br />Россия, Москва, 115230 <a href="#"><img class="ie6png map" src="/img/design/map_btn.png" width="96" height="14" alt="Схема проезда" /></a></td>
+                  </tr>
+                </table>
+            </div>
+        
+            <div id="bottom_flash">
+                <div class="bottom_menu_bg24 ie6png">
+                    <div class="bottom_menu_bg8 ie6png"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

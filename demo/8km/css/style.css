@@ -1,0 +1,131 @@
+* { margin: 0; }
+html, body { height: 100%; }
+body,td,th { font-family: Arial, Helvetica, sans-serif; background: #f5f5f5; font-size: 12px; }
+
+a:link, a:visited { color: #e32c31; }
+a:hover, a:active { color: #F60; }
+
+img { border: none; }
+
+.header { height: 250px; }
+
+.logo { position: absolute; left: 6%; top: 95px; margin: 0 0 0 -10px; }
+
+.cl { clear: both; }
+
+.minibuttons { padding: 0;  }
+.minibuttons li { list-style-type: none; height: 41px; width: 42px; float: left; overflow: hidden; }
+.minibuttons li img, .minibuttons li a { display: block; }
+.active_mb { background: url(/images/round.gif) no-repeat bottom; }
+
+.mains { float: left; margin: 25px 0 0 6%; _margin: 25px 0 0 3%; }
+.mains li img { margin: 12px 13px; }
+.mains li { margin: 0 10px 0 0; }
+
+.langs { float: right; margin: 25px 6% 0 0; _margin: 25px 3% 0 0; }
+.langs li img { margin: 10px 10px; }
+.langs li { margin: 0 0 0 10px; }
+
+.rc_ill { background: url(/images/ill_r.gif) no-repeat; width: 100%; height: 361px; margin: 30px 0 0 0; }
+
+.content { padding: 20px 0; }
+.content ul, .content ol { padding: 0 0 1em 3em; }
+
+h1 { color: #e11d22; font-size: 28px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.2em; padding: 0 0 0.5em 0; }
+h2 { color: #e11d22; font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.2em; padding: 0.5em 0 0.3em 0; }
+h3 { color: #e11d22; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.2em; padding: 0.5em 0 0.3em 0; }
+
+.main_content { padding: 30px 6% 10px; }
+
+.main_content, .content { line-height: 1.6em; }
+.main_content p, .content p { padding: 0 0 1.2em; }
+
+.limiter { min-width: 988px; height: 100%; }
+.wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -150px; background: url(/images/dashed_ill_bottom.gif) no-repeat center bottom; }
+.push { height: 150px; }
+
+.footer { padding: 55px 6% 0; height: 95px; font-size: 11px; color: #777; }
+
+.center_menu { background: #fff; font-size: 1.2em; font-style: italic; padding: 12px 6%; height: 38px; }
+.center_menu_z { height: 55px; }
+.center_menu ul { padding: 0 0; margin: -39px 0 0 0; }
+.center_menu ul li { float: left; list-style-type: none; margin: 0 3% 0 0; }
+.center_menu b { background: #cedae1; color: #5a6063; font-weight: normal; padding: 0 15px; height: 74px; line-height: 71px; float: left; position: relative; margin: -28px 0 0 0; }
+
+.center_menu a:link, .center_menu a:visited { color: #96aab8; }
+.center_menu a:hover, .center_menu a:active { color: #C00; }
+
+.left_col_main { float: left; width: 45%; padding: 0 0 50px 0; }
+.right_col_main { float: right; width: 50%; padding: 0 0 50px 0; }
+
+.tracking { margin: 0 0 10px 100px; }
+.container { margin: 0 0 0 40px; }
+
+.map_selector { margin: 0; }
+.map_selector ul { padding: 0; }
+.map_selector li { list-style-type: none; float: left; color: #000; margin: 0 1% 0 0; padding: 4px 4px 5px 4px; cursor: pointer; }
+li.ms_present { background: #E6E6E6; }
+li.ms_starter_li { color: #96aab8; cursor: default; padding: 4px 4px 5px 0; }
+li.ms_active_li { color: #6e7478; background: #cedae1; padding: 4px 4px 5px 4px; cursor: default; }
+li.ms_hover_li { background: #FFF !important; padding: 4px 4px 5px 4px; cursor: pointer; }
+
+.map_container { height: 150px; width: 100%; overflow: hidden; background: #ced9e1; position: relative; }
+.map_inner { background: url(/images/map.png) no-repeat top left; width: 1332px; height: 769px; position: relative; margin: -100px 0 0 -760px; left: 50%; } 
+
+.map_point { position: absolute; margin: 168px 0 0 765px; }
+.point_text { color: #000; width: 360px; font-style: italic; font-size: 11px; line-height: 1.5em; padding: 0 0 0 30px; overflow: hidden !important; }
+.pt_inner { width: 330px; }
+.point_img { position: absolute; z-index: 20; }
+
+/* - - - - */
+.d-shadow { position: absolute; width: 40%; left: 50%; margin: 0 0 0 -20%; z-index: 1000; min-width: 300px; }
+.d-shadow-wrap { position: relative; width: 100%; padding: 15px 21px 0 21px; margin: -15px -21px 0 -21px; overflow: hidden; }
+.d-sh-cn { position: absolute; background: url(/images/shd-medium.png) no-repeat; left: -25px; z-index: -1; }
+.d-sh-tl, .d-sh-tr { height: 500px; top: -28px; }
+.d-sh-tl, .d-sh-bl { width: 100%; }
+.d-sh-tr, .d-sh-br { width: 25px; margin-left: 100%; }
+.d-sh-bl, .d-sh-br { height: 28px; }
+.d-sh-bl { left: -46px; padding-right: 42px; clip: rect(auto auto auto 25px); }
+.d-sh-br { left: -4px; }
+
+#main_flash { height: 930px; }
+
+.top_menu_inner { float: right; margin: 55px 6% 0 0; _margin: 55px 3% 0 0; width: 670px; }
+.top_menu_inner ul { padding: 0; }
+.top_menu_inner ul li { list-style-type: none; float: left; font-size: 14px; margin: 0 20px 5px 0; padding: 4px 10px; }
+.top_menu_inner a:link, .top_menu_inner a:visited { color: #000; }
+.top_menu_inner a:hover, .top_menu_inner a:active { color: #F60; }
+
+.active_tm { background: #cedae1; }
+.active_tm b { color: #5A6063; font-weight: normal; }
+
+.content_lc { float: left; width: 60%; margin: 0 0 0 6%; _margin: 0 0 0 3%; }
+.content_rc { float: right; width: 30%; }
+.content_cc { margin: 0 6%; }
+
+
+.r_menu { padding: 0; }
+.r_menu li { list-style-type: none; margin: 0 0 1em 0; _margin: 0 0 0 0; font-size: 14px; }
+
+.r_menu li a:link, .r_menu li a:visited { color: #000; }
+.r_menu li a:hover, .r_menu li a:active { color: #F60; }
+
+.r_menu li a, .r_menu li b { padding: 4px 12% 4px 10px; _padding: 4px 6% 4px 10px; display: block; }
+.r_menu li b { background: #CEDAE1; color: #5A6063; font-weight: normal; }
+
+.rm_sub { font-size: 12px !important; padding: 0 0 0 25px; }
+
+.popup { background: url(/images/popup.gif) no-repeat 0 3px; padding: 0 0 0 15px; }
+
+.c_img { float: left; margin: 0 20px 10px 0; border: 2px solid #666; }
+
+.sitemap { padding: 0 !important; font-size: 14px }
+.sitemap li { margin: 0 0 5px; list-style-type: none; }
+.sitemap ul { padding: 0 0 0 30px; }
+.sitemap ul li { padding: 5px 0 0 0; }
+
+label { display: block; padding: 0 0 2px 0; }
+.input { padding: 3px 4px; width: 85%; margin: 0 0 15px; font-size: 18px; }
+.textarea { padding: 3px 4px; width: 85%; height: 200px; margin: 0 0 15px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+
+.submit { font-size: 16px; padding: 6px 20px; display: block; }

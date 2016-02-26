@@ -1,0 +1,71 @@
+/* Backgrounds */
+
+body {
+	background: #FFF;
+}
+.limiter {
+	background: url(../img/rebrand/bg/top_bg.jpg) repeat-x center top;
+} /* Top background */
+.wrapper {
+	background: url(../img/rebrand/bg/bottom_bg.jpg) repeat-x center bottom;
+} /* Bottom background  */
+.banner_buddy {
+	display: none;
+}
+/* Top menu */
+
+.top_menu_bg8 {
+	background: url(../img/rebrand/top/8original.png) no-repeat;
+	height: 90px;
+	width: 2908px;
+	z-index: 2;
+	position: relative;
+} /* Rebranded - 8rebrand.png, original - 8original.png */
+.top_menu_bg24 {
+	background: url(../img/rebrand/top/24original.png) no-repeat;
+	height: 90px;
+	width: 2908px;
+	z-index: 2;
+	position: relative;
+} /* Rebranded - 24rebrand.png, original - 24original.png */
+/* Footer */
+
+.bottom_menu_bg8 {
+	background: url(../img/rebrand/bottom/8original.png) no-repeat;
+	height: 167px;
+	width: 2908px;
+} /* Rebranded - 8rebrand.png, original - 8original.png */
+.bottom_menu_bg24 {
+	background: url(../img/rebrand/bottom/24original.png) no-repeat;
+	height: 167px;
+	width: 2908px;
+} /* Rebranded - 24rebrand.png, original - 24original.png */
+/* Mainpage news */
+
+.news_mainpage h1 {
+	color: #000;
+} /* The color of the news header (h1) */
+.news_mainpage h2 {
+	color: #000;
+} /* The color of the news item header and the links (h2) */
+.news_mainpage h2 a:link, .news_mainpage h2 a:visited {
+	color: #ce171f;
+}
+.news_mainpage h2 a:hover, .news_mainpage h2 a:active {
+	color: #F23E1F;
+}
+.news_item {
+	background: url(../img/rebrand/news/dots_gray.gif) repeat-x bottom;
+} /* The color of the bottom separate dots for news items */
+.ni_comments {
+	color: #828589;
+} /* The color of the date and the comments counter text and links */
+.ni_date {
+	color: #000;
+} /* The color of the date and the comments counter text and links */
+.ni_comments a:link, .ni_comments a:visited {
+	color: #828589;
+}
+.ni_comments a:hover, .ni_comments a:active {
+	color: #F23E1F;
+}

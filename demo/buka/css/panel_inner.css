@@ -1,0 +1,186 @@
+.panel_fantom {
+	height: 392px;
+}
+.panel {
+	margin: 30px 0 0 0;
+	position: absolute;
+	width: 421px;
+}
+.opened_panel {
+	background: #FFF;
+	padding: 7px 8px 8px;
+	height: 156px;
+	overflow: hidden !important;
+}
+.op_last {
+	height: 146px;
+}
+.scr_h {
+	height: 156px;
+}
+.opened_panel table tr td {
+	padding: 2px 4px;
+}
+.panel_all_btn {
+	float: right;
+	position: relative;
+	margin: 3px 8px 0 0;
+}
+.pt_link {
+	font-size: 14px;
+}
+.pt_link a:link, .pt_link a:visited {
+	color: #ef4023;
+}
+.pt_link a:hover, .pt_link a:active {
+	color: #ff9887;
+}
+.pt_date {
+	color: #7b7b7b;
+	font-size: 11px;
+}
+.pt_desc {
+	color: #000;
+	font-size: 13px;
+}
+.p_header1 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header1_on {
+	background: url(../img/design/panel/1_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/1_a.png', sizingMethod='crop');
+}
+.p_header1_off {
+	background: url(../img/design/panel/1_u.png);
+	color: #000;
+	cursor: pointer;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/1_u.png', sizingMethod='crop');
+}
+.p_header1_off img {
+	display: none;
+}
+.p_header2 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header2_on {
+	background: url(../img/design/panel/2_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/2_a.png', sizingMethod='crop');
+}
+.p_header2_off {
+	background: #a7a9ac;
+	color: #000;
+	cursor: pointer;
+}
+.p_header2_off img {
+	display: none;
+}
+.p_header3 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header3_on {
+	background: url(../img/design/panel/3_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/3_a.png', sizingMethod='crop');
+}
+.p_header3_off {
+	background: #cecece;
+	color: #000;
+	cursor: pointer;
+}
+.p_header3_off img {
+	display: none;
+}
+.p_header4 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header4_on {
+	background: url(../img/design/panel/2_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/2_a.png', sizingMethod='crop');
+}
+.p_header4_off {
+	background: #a7a9ac;
+	color: #000;
+	cursor: pointer;
+}
+.p_header4_off img {
+	display: none;
+}
+.p_header5 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header5_on {
+	background: url(../img/design/panel/3_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/3_a.png', sizingMethod='crop');
+}
+.p_header5_off {
+	background: #cecece;
+	color: #000;
+	cursor: pointer;
+}
+.p_header5_off img {
+	display: none;
+}
+.p_header6 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+	border-bottom: 1px solid white;
+}
+.p_header6_on {
+	background: url(../img/design/panel/2_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/2_a.png', sizingMethod='crop');
+}
+.p_header6_off {
+	background: #a7a9ac;
+	color: #000;
+	cursor: pointer;
+}
+.p_header6_off img {
+	display: none;
+}
+.p_header7 {
+	height: 23px;
+	padding: 4px 0 0 12px;
+}
+.p_header7_on {
+	background: url(../img/design/panel/4_a.png);
+	color: #FFF;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/4_a.png', sizingMethod='crop');
+}
+.p_header7_off {
+	background: url(../img/design/panel/7_u.png);
+	color: #000;
+	cursor: pointer;
+	_background-image: none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/design/panel/7_u.png', sizingMethod='crop');
+}
+.p_header7_off img {
+	display: none;
+}
+.last_pan_bottom {
+	background:url(../img/design/panel/4_bottom.png);
+	height: 10px;
+	font-size: 0;
+}

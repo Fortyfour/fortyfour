@@ -1,0 +1,604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Бука</title>
+
+<link type="text/css" href="css/style.css" rel="stylesheet"  />
+<link type="text/css" href="css/panel.css" rel="stylesheet"  />
+<link type="text/css" href="css/scroll.css" rel="stylesheet"  />
+<link type="text/css" href="css/rebrand.css" rel="stylesheet"  />
+
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script src="js/preload_main.js" type="text/javascript"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/mousewheel.js" type="text/javascript"></script>
+<script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/auth.js" type="text/javascript"></script>
+<script src="js/panel.js" type="text/javascript"></script>
+<script src="js/sliding_news.js" type="text/javascript"></script>
+<script src="js/partners.js" type="text/javascript"></script>
+
+<!--[if lt IE 7]>
+    <style>
+        .ie6png { filter: expression(fixPNG(this)); }
+        .ie6png a { filter: expression(fixPNG(this)); }
+    </style>
+	<script type="text/javascript" src="js/ie6-fix.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="main top_bg">
+    <div class="limiter bottom_bg">
+        <div class="wrapper">
+        
+            <div class="header">
+            
+                <div class="top">
+                    <div class="top_left">
+                    <a href="/"><img class="ie6png logo" src="img/rebrand/logo_white.png" width="101" height="53" alt="Бука" title="Бука" /></a>
+                    </div>
+                    <a href="/"><img class="ie6png home" src="img/design/homebutton.png" width="21" height="21" alt="На главную"  title="На главную сраницу" /></a>
+                    
+                    <div class="top_right">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="44">
+                                <div class="search ie6png"></div>
+                                <form action="" method="get" class="search_form">
+                                    <input class="search_field" name="" type="text" value="поиск" 
+                                    onfocus="if(this.value == 'поиск'){this.value = ''}" 
+                                    onblur="if(this.value == ''){this.value = 'поиск'}" />
+                                    
+                                  <input name="" type="button" class="search_go" />
+                                </form>
+                            </td>
+                            <td>
+                            	<div class="auth_button ie6png" id="auth" onclick="auth()">Авторизация</div>
+                            	<div class="auth ie6png" id="auth_bg"></div>
+                  				<form action="" method="get" class="auth_form" id="auth_form">
+                                	<div id="close" onclick="auth_close()"></div>
+                                    <input class="auth_field" name="" type="text" value="логин"
+                                    onfocus="if(this.value == 'логин'){this.value = ''}" 
+                                    onblur="if(this.value == ''){this.value = 'логин'}"/>
+                                    
+                            		<input class="auth_field" name="" type="text" value="пароль" 
+                                    onfocus="if(this.value == 'пароль'){this.value = '';this.type = 'password'}" 
+                                    onblur="if(this.value == ''){this.value = 'пароль';this.type = 'text'}" />
+                                    <div class="regnpass"><a href="#">Регистрация</a> | <a href="#">Забыли пароль?</a></div>
+        							<input name="" type="button" value="" class="auth_go" />
+                                </form>
+                            </td>
+                            <td><div class="lang ie6png" onclick="location.href='#'"><div><a href="#">ru</a></div></div></td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="topmenu">
+                    <ul>
+                        <li style="width: 9%; text-align: left"><a href="#">Купить</a></li>
+                        <li style="width: 8%; text-align: center"><a href="#">Игры</a></li>
+                        <li style="width: 15%; text-align: center"><a href="#">Техподдержка</a></li>
+                        <li style="width: 9%; text-align: center"><a href="#">Форум</a></li>
+                        <li style="width: 12%; text-align: center"><a href="#">Конкурсы</a></li>
+                        <li style="width: 14%; text-align: center"><a href="#">Прайс-лист</a></li>
+                        <li style="width: 21%; text-align: center"><a href="#">Оптовым покупателям</a></li>
+                        <li style="width: 12%; text-align: right"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div id="top_flash">
+                    <div class="top_menu_bg24 ie6png">
+                        <div class="top_menu_bg8 ie6png"></div>
+                    </div>
+              </div>
+                
+                <div class="protector_menu"></div>
+                
+            </div>
+            
+            <div class="banner_buddy"><a href="/game.html"><img class="ie6png" src="img/rebrand/rebrand_parts/maroder_logo.png" width="516" height="71" alt="Мародер" title="Мародер" /></a></div>
+            <div class="banner" id="banner"></div>
+                <script type="text/javascript">
+					var so = new SWFObject("swf/banner.swf", "banner", "100%", "120", "7");
+					so.addParam("wmode","transparent");
+					so.write("banner");
+				</script>
+            
+            <div class="content">
+                        
+                <div class="left_col">
+                
+                	<!-- Новости -->
+                	<div class="news_mainpage">
+						<h1>Новости</h1>
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/defcon.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">Стратегия в реальном времени &laquo;Defcon&raquo;&nbsp;&mdash; симулятор мировой термоядерной войны</a></h2>
+								<div class="ni_date">10 января 2009</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/black.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">Новый ролик «Черной метки» можешь посмотреть сейчас на сайте!</a></h2>
+								<div class="ni_date">7 января 2009</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/chrono.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">Новый ролик проекта «Chronostorm. Сибирский рубеж»</a></h2>
+								<div class="ni_date">6 января 2009</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/mutation.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">«Симбионт» снова демонстрирует разнообразные возможности мутации!</a></h2>
+								<div class="ni_date">1 января 2009</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/tfort.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">Турнир по игре TeamFortress 2 «Питерская ReZня»</a></h2>
+								<div class="ni_date">30 декабря 2008</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                        
+                        <!-- Новость -->
+                        <div class="news_item">
+                        	<a href="#"><img class="news_pfw ie6png" src="img/design/news_photoframework.png" width="89" height="78" />
+                            <img class="news_pht" src="img/content/petka.gif" width="60" height="60" alt="Defcon" /></a>
+                            
+                            <div class="ni_body">
+                            	<h2><a href="#">На сайте игры «Петька и Вич» появился раздел по игре Петька 9: Пролетарский гламурЪ!</a></h2>
+								<div class="ni_date">26 декабря 2008</div>
+                                <div class="ni_comments"><a href="#"><img class="ie6png comments_icon" alt="Комментарии" title="Комментарии" src="img/rebrand/news/comment.png" width="11" height="10" /></a>4 <a href="#">добавить</a></div>
+                            </div>
+                            
+                        </div>
+                        <!-- /Новость -->
+                                         
+                    </div>
+                    <!-- /Новости -->
+                    
+                    <div class="bottom_block">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="31" height="21"><a href="#"><img class="nm_rss ie6png" src="img/design/main_rss.png" width="21" height="21" alt="RSS" title="RSS" /></a></td>
+                            <td width="9" class="ie6png n_sel_l current_sn"></td>
+                            <td width="150" valign="middle" class="n_sel current_sn" id="current_sn">Все новости</td>
+                            <td width="22" class="ie6png n_sel_r current_sn" valign="center">
+                            	<div class="news_slider_pos" id="slider">
+                                	<div class="news_slider" id="slider">
+                                        <a href="javascript:void(0)" id="item1">Все новости</a>
+                                        <a href="javascript:void(0)" id="item2">Новости Проектов</a>
+                                        <a href="javascript:void(0)" id="item3">Новости Фан-Сайтов</a>
+                                        <a class="last_slider" id="item4" href="javascript:void(0)">Новости компании</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td align="right">
+                            	<form action="" method="get">
+                                	<input name="" type="button" class="ns_go" />
+                                	<input name="" type="text" class="ns_inp ie6png" value="поиск по новостям" 
+                                    onfocus="if(this.value == 'поиск по новостям'){this.value = ''}" 
+                                    onblur="if(this.value == ''){this.value = 'поиск по новостям'}" />
+                              </form>
+                            </td>
+                          </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                <div class="right_col">
+                	<!-- Player -->
+                    <div class="player" id="player"></div>
+					<script type="text/javascript">
+                        var so = new SWFObject("swf/player_main.swf", "player", "420", "400", "7");
+                        so.addParam("wmode","transparent");
+                        so.write("player");
+                    </script>
+                    <!-- /Player -->
+                    
+                    <div class="clearer"></div>
+                    
+                    <!-- Panel -->
+                	<div class="panel">
+                    	
+                        <!-- Releases (1) -->
+                      	<div id="ph1" class="p_header1 p_header1_on">
+                      		<a href="#"><img class="ie6png panel_all_btn" src="img/design/panel/all_releases.png" width="72" height="14" alt="Все релизы" /></a>
+                      		<h2>График релизов</h2>
+                    	</div>
+                        
+                        <div id="ph1_p" class="opened_panel">
+                        	<div id="scr1" class="scroll-pane scr_h">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="25%" class="pt_date" align="right">IV квартал 2008г.</td>
+                                <td width="35%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="25%" class="pt_date" align="right">I квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="25%" class="pt_date" align="right">I квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="25%" class="pt_date" align="right">I квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Принцессы Лилифи</a></td>
+                                <td width="25%" class="pt_date" align="right">II квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Arcade</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Audiosurf</a></td>
+                                <td width="25%" class="pt_date" align="right">I квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Музыкальная школа</a></td>
+                                <td width="25%" class="pt_date" align="right">IV квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RPG / RTS / SIM</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Гильдия 2 &mdash; Венеция</a></td>
+                                <td width="25%" class="pt_date" align="right">IV квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Chronostorm &mdash; Сибирский Рубеж</a></td>
+                                <td width="25%" class="pt_date" align="right">III квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Action</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Saints Row 2</a></td>
+                                <td width="25%" class="pt_date" align="right">II квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Multiwinia: Естественный отбор</a></td>
+                                <td width="25%" class="pt_date" align="right">II квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Музыкальная школа</a></td>
+                                <td width="25%" class="pt_date" align="right">IV квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RPG / RTS / SIM</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Гильдия 2 &mdash; Венеция</a></td>
+                                <td width="25%" class="pt_date" align="right">IV квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Chronostorm &mdash; Сибирский Рубеж</a></td>
+                                <td width="25%" class="pt_date" align="right">III квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">Action</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Saints Row 2</a></td>
+                                <td width="25%" class="pt_date" align="right">II квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Multiwinia: Естественный отбор</a></td>
+                                <td width="25%" class="pt_date" align="right">II квартал 2009г.</td>
+                                <td width="35%" class="pt_desc">RTS</td>
+                              </tr>
+                            </table>
+                            </div>
+                        </div>      
+                        <!-- /Releases (1) -->  
+                        
+                        
+                        <!-- Hits (2) -->
+                      	<div id="ph2" class="p_header2 p_header2_off">
+                        	<a href="#"><img class="ie6png panel_all_btn" src="img/design/panel/all_hits.png" width="72" height="14" alt="Все хиты" /></a>
+                      		<h2>Хиты продаж</h2>
+                    	</div>
+                        
+                        <div id="ph2_p" class="opened_panel">
+                        	<div id="scr2" class="scroll-pane scr_h">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                            </table>
+                            </div>
+                        </div>
+                        <!-- /Hits (2) -->  
+                                              
+                        <!-- Downloads (3) -->
+                      	<div id="ph3" class="p_header3 p_header3_off">
+                        	<a href="#"><img class="ie6png panel_all_btn" src="img/design/panel/all_downloads.png" width="72" height="14" alt="Еще" /></a>
+                      		<h2>Скачать</h2>
+                    	</div>
+                        
+                        <div id="ph3_p" class="opened_panel">
+                        	<div id="scr3" class="scroll-pane scr_h">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                <td width="60%" class="pt_desc">Логическая аркада</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                <td width="60%" class="pt_desc">Puzzle RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                <td width="60%" class="pt_desc">тактика / RPG</td>
+                              </tr>
+                              <tr>
+                                <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                              </tr>
+                            </table>
+                            </div>
+                        </div>
+                        <!-- /Downloads (3) -->  
+                        
+                        
+                        
+                        <!-- Fan sites (4) -->
+                      	<div id="ph4" class="p_header4 p_header4_off">
+                        	<a href="#"><img class="ie6png panel_all_btn" src="img/design/panel/all_sites.png" width="72" height="14" alt="Все сайты" /></a>
+                      		<h2>Фан-Сайты</h2>
+                    	</div>
+                        
+                        <div id="ph4_p" class="last_opened_pan">
+                        	<div class="opened_panel op_last">
+                            	<div id="scr4" class="scroll-pane scr_h">
+                            	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="40%" class="pt_link"><a href="#">Пузыряка</a></td>
+                                    <td width="60%" class="pt_desc">Логическая аркада</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="40%" class="pt_link"><a href="#">Ксорбик</a></td>
+                                    <td width="60%" class="pt_desc">Puzzle RPG</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="40%" class="pt_link"><a href="#">Мародер</a></td>
+                                    <td width="60%" class="pt_desc">тактика / RPG</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="40%" class="pt_link"><a href="#">Школа магии</a></td>
+                                    <td width="60%" class="pt_desc">Детская игра / игра для отдыха</td>
+                                  </tr>
+                                </table>
+                                </div>
+                            </div>
+							<div class="last_pan_bottom ie6png"></div>
+                        </div>
+                        <!-- /Fan sites (4) -->  
+                                        
+                  	</div>
+                    <div class="panel_fantom"></div>
+                    <!-- /Panel -->
+                                              
+                    <!-- Partners -->
+                  <div class="partners ie6png">
+                    	<h2>Партнеры</h2>
+                    	<div class="p_in">
+                        	<div class="p_larr ie6png" id="lp"></div>
+                            <div class="p_larr_m ie6png" id="lp_m"></div>
+                            <div class="p_parent">
+                            	<div class="p_child" id="pchild" style="margin-left: -274px;">
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/physx.gif" width="98" height="60" alt="PhysX" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/intel.gif" width="42" height="60" alt="Intel" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/nvidia.gif" width="93" height="60" alt="Nvidia" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/physx.gif" width="98" height="60" alt="PhysX" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/intel.gif" width="42" height="60" alt="Intel" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/nvidia.gif" width="93" height="60" alt="Nvidia" /></a></div>
+                                    <div class="p_item"><a href="#"><img src="img/content/partners/physx.gif" width="98" height="60" alt="PhysX" /></a></div>
+                                </div>
+                            </div>                        
+                            <div class="p_rarr ie6png" id="rp"></div>
+                            <div class="p_rarr_m ie6png" id="rp_m"></div>
+                        </div>
+                    </div>
+                    <!-- /Partners -->
+                    
+                </div>
+                
+                <div class="clearer"></div>
+            
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        
+        <div class="footer">
+        	
+            <div class="copy">
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="23"><img class="ie6png copy_icon" src="img/design/t_footer.png" width="18" height="18" alt="Телефон:" title="Телефон" /></td>
+                    <td width="160" class="copy_tel">+7 (495) 788-75-00</td>
+                    <td width="23"><img class="ie6png copy_icon" src="img/design/f_footer.png" width="18" height="18" alt="Факс:" title="Факс" /></td>
+                    <td class="copy_tel">+7 (495) 788-75-00</td>
+                  </tr>
+                  <tr><td colspan="4" height="8"></td></tr>
+                  <tr>
+                    <td valign="top"><img class="ie6png copy_icon" src="img/design/a_footer.png" width="18" height="18" alt="Адрес:" title="Адрес" /></td>
+                    <td colspan="3" class="copy_text">Каширское шоссе, 1, строение 2, Компания &laquo;Бука&raquo; <br />Россия, Москва, 115230 <a href="#"><img class="ie6png map" src="img/design/map_btn.png" width="96" height="14" alt="Схема проезда" /></a></td>
+                  </tr>
+                </table>
+            </div>
+        
+            <div id="bottom_flash">
+                <div class="bottom_menu_bg24 ie6png">
+                    <div class="bottom_menu_bg8 ie6png"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Chronostorm - Сибирский рубеж</title>
+
+<style type="text/css">
+<!--
+body,td,th { color: #71b5c6; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+body { background: #000000 url(img/shapka_bg.jpg) top repeat-x; margin:0;}
+	
+strong { color: #27dfd4; }
+b { color: #27dfd4; }
+
+h1 { font-size: 22px; color: #FFFFFF; font-weight: normal; }
+	
+a:link { color: #17d1ff; text-decoration: underline; }
+a:visited { color: #17d1ff; text-decoration: underline; }
+a:hover { color: #FF6600; text-decoration: underline; }
+a:active { color: #FF6600; text-decoration: underline; }
+
+#logo { position: absolute; height: 250px; width: 100%; text-align: center; min-width: 950px; //width: expression(document.body.clientWidth > 940? "100%" :"950px"); }
+#menu { min-width: 460px; position: relative; z-index: 1000; //width: expression(document.body.clientWidth > 950? "100%" :"460px"); }
+#main { min-width: 950px; }
+
+.hl_table { margin-top: 10px; }
+.hl_table_plain { padding: 0 10px; }
+
+.hl_div_1 { background: url(img/content_top/center_left_light.jpg) bottom left no-repeat; }
+.hl_div_2 { background: url(img/content_top/center_right_light.jpg) bottom right no-repeat; }
+
+#t { background: url(img/content_top/top_corner.png) repeat-x bottom; height: 20px; }
+#b { background: url(img/content_top/bottom_corner.png) repeat-x bottom; height: 20px; }
+#l { background: url(img/content_top/left_corner.png) repeat-y right; width: 20px; }
+#r { background: url(img/content_top/right_corner.png) repeat-y left; width: 20px; }
+
+#leftcorm_orn { background: url(img/content_top/left_corner_orn.png) left bottom; height: 145px; width: 20px; }
+#rightcorm_orn { background: url(img/content_top/right_corner_orn.png) right bottom; height: 145px; width: 20px; }
+
+.content { background: url(img/content_g_bg.jpg) repeat-x bottom; padding-bottom: 40px; }
+.content_regular { background: url(img/content_b_bg.jpg) repeat-x top; padding: 40px 10px 0 10px; }
+.content_plain { background: url(img/content_plain_dots.gif) repeat-y left top; padding-left: 20px; }
+
+.r_bottom { background: url(img/r_b.jpg) top left no-repeat; }
+.r_middle { background: url(img/r_m.jpg) bottom left no-repeat; }
+.l_middle { background: url(img/l_m.jpg) bottom right no-repeat; }
+.bottom_c { background: url(img/bottom_bg.jpg) top repeat-x; }
+.l_bottom { background: url(img/l_b.jpg) top right no-repeat; }
+
+.copy { font-size: 10px; text-align: left; color: #517b82; padding-left: 10px; padding-right: 10px; position: relative; z-index: 150; }
+
+.right_col { min-height: 700px; }
+
+.copy_text { margin-top: -10px; }
+
+.l_menu_download { background: url(img/l_menu_bg.png) top right no-repeat; width: 226px; text-align: left; height: 165px; //height: 180px; margin-top: 44px; padding-top: 15px; z-index: 1000;
+//background-image:none; 
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/l_menu_bg.png', sizingMethod='crop'); }
+.lmenu_item { text-align: left; margin-bottom: 11px; position: relative; z-index: 1000; height: 22px; min-height: 22px; width: 190px; }
+
+.img_header { margin-bottom: 10px; margin-top: 44px; clear: both; }
+
+#news { text-align:left; width: 226px; }
+.news_t { width: 190px; height: 15px; background: url(img/news_t_bg.png) no-repeat bottom;
+//background-image:none; 
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/news_t_bg.png', sizingMethod='crop'); }
+
+#news_c { width: 174px; //width: 190px; padding: 0 8px; font-size: 11px; background: url(img/news_c_bg.png) repeat-y bottom; padding-bottom: 4px; }
+
+.news_b { width: 190px; height: 18px; font-size: 10px; text-align:right; padding-top: 3px; background: url(img/news_b_bg.png) no-repeat top;
+//background-image:none; 
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/news_b_bg.png', sizingMethod='crop'); }
+
+.news_date { font-size: 10px; color: #FFFFFF; }
+.news_item { margin-bottom: 15px; background: url(img/news_dots.gif) repeat-x bottom; padding-bottom: 6px; }
+
+.screenshots { margin-left: 36px; }
+.screnshot_mini { background: url(img/screenshots_mini_bg.png) no-repeat; width: 86px; height: 106px; float: left; margin: 0 12px 12px 0; padding: 3px 0 0 3px;
+//background-image:none; 
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/screenshots_mini_bg.png', sizingMethod='scale'); }
+.screenshots_mini_img { border: 1px solid #7e969c; position: absolute; }
+.all_screens { font-size: 10px; }
+.screens_separator { clear: both; }
+ 
+.bottom_center { background: url(img/bottom_bg_l2.jpg) left no-repeat; height: 134px; }
+
+/* main menu */
+.mainmenu_td_wline { background: url(img/menu/bg_wline.png) top repeat-x; 
+//background-image:none; 
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/menu/bg_wline.png', sizingMethod='scale'); }
+
+.mainmenu_td { background: url(img/menu/bg.png) top repeat-x; 
+//background-image:none;
+//filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/menu/bg.png', sizingMethod='scale'); }
+
+.explosion { margin-top: 80px; float: left; margin-left: 36px; }
+
+#lm_i_1_1 { display: none; }
+#lm_i_2_1 { display: none; }
+#lm_i_3_1 { display: none; }
+#lm_i_4_1 { display: none; }
+#lm_i_5_1 { display: none; }
+
+-->
+</style>
+
+<!--[if lt IE 7]>
+	<![if gte IE 5.5]>
+	<script type="text/javascript" src="js/png.js"></script>
+	<style type="text/css"> 
+	.iePNG, IMG { filter:expression(fixPNG(this)); } 
+	.iePNG A { position: relative; }
+	</style>
+	<![endif]>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/zoom.js"></script>
+<script type="text/javascript" src="js/zoom_html.js"></script>
+
+<map name="logo">
+  <area shape="rect" alt="Chronostorm - Сибирский рубеж" title="Chronostorm - Сибирский рубеж" coords="255,62,477,164" href="#">
+</map>
+
+<map name="buka">
+	<area shape="rect" coords="61,6,200,54" href="http://www.buka.ru" alt="Buka">
+</map>
+
+</head>
+<body onload="setupZoom()">
+
+<div id="logo">
+	<img src="img/logo.png" alt="Chronostorm - Сибирский рубеж" width="733" height="250" border="0" usemap="#logo">
+</div>
+
+<div id="main">
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+        	<td height="250" colspan="3" align="center" valign="bottom">
+          	</td>
+      	</tr>
+   	  	<tr>
+       	  <td width="25%" align="right" valign="top" class="l_middle">
+          <div class="l_menu_download">
+            <div id="lm_1" class="lmenu_item"><a href="#"><img id="lm_i_1_1" style="position:relative" class="lmenu_img" src="img/lmenu/sreenshots.png" alt="Скриншоты" width="190" height="22" border="0"><img id="lm_i_1" class="lmenu_img" src="img/lmenu/sreenshots_idle.png" alt="Скриншоты" width="190" style="position:absolute;" height="22" border="0"></a></div>
+            <div id="lm_2" class="lmenu_item"><a href="#"><img id="lm_i_2_1" style="position:relative" class="lmenu_img" src="img/lmenu/wallpapers.png" alt="Скриншоты" width="190" height="22" border="0"><img id="lm_i_2" style="position:absolute" class="lmenu_img" src="img/lmenu/wallpapers_idle.png" alt="Скриншоты" width="190" height="22" border="0"></a></div>
+            <div id="lm_3" class="lmenu_item"><a href="#"><img id="lm_i_3_1" style="position:relative" class="lmenu_img" src="img/lmenu/arts.png" alt="Скриншоты" width="190" height="22" border="0"><img id="lm_i_3" style="position:absolute" class="lmenu_img" src="img/lmenu/arts_idle.png" alt="Скриншоты" width="190" height="22" border="0"></a></div>
+            <div id="lm_4" class="lmenu_item"><a href="#"><img id="lm_i_4_1" style="position:relative" class="lmenu_img" src="img/lmenu/video.png" alt="Скриншоты" width="190" height="22" border="0"><img id="lm_i_4" style="position:absolute" class="lmenu_img" src="img/lmenu/video_idle.png" alt="Скриншоты" width="190" height="22" border="0"></a></div>
+            <div id="lm_5" class="lmenu_item"><a href="#"><img id="lm_i_5_1" style="position:relative" class="lmenu_img" src="img/lmenu/press.png" alt="Скриншоты" width="190" height="22" border="0"><img id="lm_i_5" style="position:absolute" class="lmenu_img" src="img/lmenu/press_idle.png" alt="Скриншоты" width="190" height="22" border="0"></a></div>
+          </div>
+          <div id="news">
+          <img src="img/headers/news.png" class="img_header" alt="Новости" width="60" height="20">
+          	<div class="news_t"></div>
+            <div id="news_c" class="iePNG">
+            	<div class="news_item">
+                    <span class="news_date">23.06.08</span><br>
+                    <strong><a href="#">ВС РФ юниты и строения базы</a></strong><br>
+                    Управление временем: то, что до сих пор было приоритетом таких жанров как экшен...
+                </div>
+                <div class="news_item">
+                    <span class="news_date">23.06.08</span><br>
+                    <strong><a href="#">Новые скриншоты</a></strong><br>
+                    Реалистичность происходящего:  В игре отражены реальные территории, на которых могли
+                </div>
+                <div class="news_item">
+                    <span class="news_date">23.06.08</span><br>
+                    <strong><a href="#">Смотри тизер</a></strong><br>
+                    Современная графика и высокая динамика игры: Красочные взрывы, Широкий выбор тактик местности и укрытий  
+                </div>
+            </div>
+            <div class="news_b">
+            	<a href="#">Архив новостей</a>
+            </div>
+          </div>
+        </td>
+       	  <td valign="top" width="50%" class="content">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+                        <td width="100" height="44" valign="top"><a href="#"><img src="img/menu/main_idle_wline.png" width="100" height="44" border="0" /></a></td>
+                        <td class="mainmenu_td_wline" valign="top">&nbsp;</td>
+                        <td width="89" valign="top"><a href="#"><img src="img/menu/about_idle_wline.png" width="89" height="44" border="0" /></a></td>
+                        <td class="mainmenu_td_wline" valign="top">&nbsp;</td>
+                        <td width="100" valign="top"><a href="#"><img src="img/menu/download.png" width="100" height="44" border="0" /></a></td>
+                        <td class="mainmenu_td" valign="top">&nbsp;</td>
+                        <td width="111" valign="top"><a href="#"><img src="img/menu/talk_idle.png" width="111" height="44" border="0" /></a></td>
+                        <td class="mainmenu_td" valign="top">&nbsp;</td>
+                        <td width="102" valign="top"><a href="#"><img src="img/menu/konkurs_idle.png" width="102" height="44" border="0" /></a></td>
+			    	</tr>
+       	  		</table>
+                
+                <!-- highlighted table -->
+                <div class="hl_div_1">
+                    <div class="hl_div_2">          
+                        <table width="100%" class="hl_table" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td><img src="img/content_top/top_left_corner.png" width="20" height="20" alt="" /></td>
+                            <td id="t" class="iePNG"><img src="img/spacer.gif" width="470" height="1" alt="" /></td>
+                            <td><img src="img/content_top/top_right_corner.png" width="20" height="20" alt="" /></td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="bottom" class="iePNG" id="l">
+                                <div id="leftcorm_orn" class="iePNG"></div>
+                            </td>
+                            <td background="img/content_top/bg.png" class="iePNG">
+                                <div class="hl_table_plain">
+                        Сибирский рубеж&nbsp;&#8212; динамичная стратегия в&nbsp;реальном времени, повествующая о&nbsp;жарких сражениях, которые могли&nbsp;бы случиться в&nbsp;ближайшем будущем на&nbsp;восточных границах России. <br /><br />
+                
+                В&nbsp;2015&nbsp;году, под влиянием интересов крупнейшей корпорации &laquo;Путь Дракона&raquo;, китайская армия вторгается в&nbsp;Забайкалье. Неожиданное использование тайных разработок в&nbsp;области управления Временем, позволяет китайским войскам продвинуться вглубь территорий Сибири.<br /><br />
+                
+                Ваша задача&nbsp;&#8212; захватить и&nbsp;исследовать технологии по&nbsp;управлению Временем, чтобы выбить врага за&nbsp;пределы Родины, а&nbsp;также выяснить происхождение таинственных разработок.
+                                </div>
+                            </td>
+                            <td align="right" valign="bottom" class="iePNG" id="r">
+                                <div id="rightcorm_orn" class="iePNG"></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/content_top/bottom_left_corner.png" width="20" height="20" alt="" /></td>
+                            <td id="b" class="iePNG"></td>
+                            <td><img src="img/content_top/bottom_right_corner.png" width="20" height="20" alt="" /></td>
+                          </tr>
+                        </table>
+                	</div>
+                </div>        
+                <!-- /highlighted table -->
+                
+                <div class="content_regular">
+                	<h1>Особенности игры</h1>
+                	<div class="content_plain">
+                    <strong>Управление временем:</strong> то,&nbsp;что до&nbsp;сих пор было приоритетом таких жанров как экшен и&nbsp;шутеры, реализовано в&nbsp;формате RTS! Вы&nbsp;сможете полностью останавливать время на&nbsp;выбранной области или перемещать на&nbsp;поле боя боевые единицы прошлого или будущего от&nbsp;Т-34&nbsp;до&nbsp;футуристических боевых машин.
+
+<p><strong>Реалистичность происходящего:</strong> В&nbsp;игре отражены реальные территории, на&nbsp;которых могли&nbsp;бы развернуться сражения. Вам предстоит защищать железнодорожный узел Тынды, отбить Иркутскую ГЭС и&nbsp;провести отряды по&nbsp;Великой Китайской Стене. Вся техника представленная в&nbsp;игре основана на&nbsp;современных прототипах.</p>
+
+<p><strong>Современная графика и&nbsp;высокая динамика игры:</strong> Красочные взрывы, разлетающиеся осколки техники, грохот артиллерии и&nbsp;детализированные модели &#8212; все это позволит вам ощутить жару и&nbsp;адреналин настоящих сражений.</p>
+
+<p><strong>Широкий выбор тактик:</strong> Умное использование свойств местности и&nbsp;укрытий, применение уникальных возможностей различных боевых единиц и&nbsp;эффективное управление технологиями времени понадобятся вам на&nbsp;пути к&nbsp;победе.</p>
+
+<p><strong>Многопользовательский режим:</strong> Играйте с&nbsp;друзьями по&nbsp;локальной сети или по&nbsp;интернету за&nbsp;любую из&nbsp;враждующих сторон.</p>
+                    </div>
+                </div>
+          	</td>
+		<td width="25%" valign="top" class="r_middle">
+            <div class="screenshots">
+            	<img src="img/headers/new_screenshots.png" class="img_header" alt="Новые скриншоты" width="133" height="20"><br>
+              	<div class="screnshot_mini"><a href="img/cont/dj.jpg"><img src="img/cont/tank.jpg" class="screenshots_mini_img" alt="tank" width="78" height="78"></a></div>
+              <div class="screnshot_mini"><a href="img/cont/dj.jpg"><img src="img/cont/tank.jpg" class="screenshots_mini_img" alt="tank" width="78" height="78"></a></div>
+              <div class="screens_separator"></div>
+                <div class="screnshot_mini"><a href="img/cont/dj.jpg"><img src="img/cont/tank.jpg" class="screenshots_mini_img" alt="tank" width="78" height="78"></a></div>
+              <div class="screnshot_mini"><a href="img/cont/dj.jpg"><img src="img/cont/tank.jpg" class="screenshots_mini_img" alt="tank" width="78" height="78"></a></div>
+                <!--div class="all_screens"><a href="#">Все скриншоты</a></div-->
+            </div>
+            <img src="img/spacer.gif" width="240" height="1">
+            <img src="img/spacer.gif" width="1" height="460">
+        </td>
+   	  </tr>
+        <tr>
+        	<td height="134" class="l_bottom">
+            	<img src="img/spacer.gif" width="240" height="1">
+            </td>
+            <td align="center" bgcolor="#082b2d" class="bottom_c">
+            	<div class="bottom_center">
+                  <div class="copy">
+                      <div style="text-align:center;">
+                       	  <img src="img/buka.png" alt="Buka" width="260" height="98" border="0" usemap="#buka">
+                      </div>
+                      <div class="copy_text">&copy; 2008 Бука. На территории РФ издается компанией &laquo;Бука&raquo;. Защиту авторских прав компании
+                      &laquo;Бука&raquo; на территории России осуществляет ассоциация &laquo;Русский&nbsp;Щит&raquo;&nbsp;(<a href="mailto:rshield@aha.ru">rshield@aha.ru</a>).</div>
+                  </div>
+                </div> 
+       	  </td>
+       	  	<td align="center" valign="top" class="r_bottom">
+          		<a href="http://www.explosion.ru"><img src="img/explosion.png" class="explosion" alt="Создание: Explosion" width="105" height="21" border="0"></a>
+       	  	</td>
+      	</tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>8km Cargo</title>
+	<link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
+    
+    <!--[if lt IE 7]>
+        <style type="text/css">
+        	.png { filter: expression(fixPNG(this)); }		
+		</style>
+        <script type="text/javascript" src="js/png.js"></script>
+    <![endif]-->
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="wrapper">
+        	<div id="main_flash"></div>
+            
+        	<script type="text/javascript">
+				var so = new SWFObject('swf/flashindex_ru.swf', "main_flash", "100%", "930", "8"); 
+				so.addParam("wmode", "window");
+				so.write("main_flash");
+			</script>
+                    
+            <div class="main_content">
+                <div class="left_col_main">
+                    <h1>Группа Логистических Компаний</h1>
+                    <p>Объединенная Группа Логистических Компаний профессионально занимается предоставлением услуг по таможенному оформлению, а также иных услуг в околотаможенной сфере, необходимых участникам внешне-экономической деятельности. Мы освободим Ваших сотрудников от необходимости присутствовать в таможенных органах при подаче декларации и при даче разъяснений по любым вопросам возникающим в ходе таможенного оформления.</p>
+    
+                    <p>Мы работаем с такой широкой номенклатурой товаров, что на Ваши вопросы точно найдем ответ. Наш отдел таможенного оформления поможет с определением кодов ТН ВЭД, разъяснит вопросы по сертификации, санитарно-эпидемиологической экспертизе, фитосанитарному контролю, ветеринарному контролю, рассчитает платежи, поможет при составлении внешнеторгового контрактa.</p>                    
+                </div>
+                
+                <div class="right_col_main">
+                	<a href=tracking/"><img class="png tracking" src="images/tracking.png" width="358" height="133" alt="Отслеживание грузов" /></a>
+                    <a href="container_tracking/"><img class="png container" src="images/container.png" width="375" height="158" alt="Отслеживание контейнера" /></a>
+                </div>
+
+				<div class="cl"></div>
+                
+                <div class="map_selector" identify="2">
+                	<ul>
+                    	<li class="ms_starter_li"><em>Представительство</em></li>
+                        <li class="map_clicker" identify="0"><em>Котка</em></li>
+                        <li class="map_clicker" identify="1"><em>Санкт-Петербург</em></li>
+                        <li class="map_clicker ms_active_li ms_present" identify="2"><em>Москва</em></li>
+                        <li class="map_clicker" identify="3"><em>Екатеринбург</em></li>
+                        <li class="map_clicker" identify="4"><em>Новосибирск</em></li>
+                        <li class="map_clicker" identify="5"><em>Урумчи</em></li>
+                        <li class="map_clicker" identify="6"><em>Хабаровск</em></li>
+                        <li class="map_clicker ms_present" identify="7"><em>Пекин</em></li>
+                        <li class="map_clicker" identify="8"><em>Тунзянь</em></li>
+                        <li class="map_clicker" identify="9"><em>Владивосток</em></li>
+                    </ul>
+                    <div class="cl"></div>
+                </div>
+            </div>
+   
+            <div class="map_container">
+            	<div class="map_inner">
+                	
+                    <div class="map_point" id="map_point">
+                        <img class="png point_img" src=images/point.png" width="31" height="34" />
+                        <div class="point_text">
+                        	<div class="pt_inner">
+                            <b>Москва</b><br />
+                            Москва, МКАД, 8-ой км, Торговый центр «Косино Плаза», Тел.: +7 (495) 796-44-66.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        
+        <div class="footer">
+            <div class="left_col_main">
+            	Москва, МКАД, 8-ой км, Торговый центр «Косино Плаза»<br /> 
+                Тел.:  +7 (495) 796-44-66<br /> 
+                Е-mail: <a href="mailto:g@8-km.com">g@8-km.com</a>
+            </div>
+            
+            <div class="right_col_main">
+            	<a href="http://www.explosion.ru"><img alt="Explosion" title="Создание сайта — Студия «Explosion»" align="right" src=images/logos/explosion.gif" width="105" height="25" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
